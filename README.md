@@ -17,6 +17,18 @@ A simple log file parser which reads in files that contain a list of user `ids` 
 
 The expected run value for this example would be: `['/home', '/cart', '/dragon']`
 
+### Installing
+
+Clone the project locally and cd into it
+```
+git clone git@github.com:TNowalk/KeyVal.git && cd $_
+```
+
+Install Dependencies
+```
+npm Install
+```
+
 ### Usage
 
 ```javascript
