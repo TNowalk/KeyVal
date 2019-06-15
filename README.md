@@ -29,9 +29,9 @@ MostCommonPathFinder.findPath('./path/to/file.log').then((results) => {
 
 ##### Arguments
 
-* logFilePath: Path to the log file (Required)
-* length: The number of top paths to be returned (Default: 3)
-* method: The aggregation method to be used ([simple, reduce, map], Default: simple)
+* **logFilePath**: Path to the log file (_Required_)
+* **length**: The number of top paths to be returned (_Default: 3_)
+* **method**: The aggregation method to be used (_[simple, reduce, map], Default: simple_)
 
 > Note: The results will be returned in the same order, regardless of what method was chosen.  The methods are used here as more of a proof of concept, in testing, the `simple` method has shown to be the fastest.
 
@@ -57,11 +57,6 @@ By default, the benchmark will generate a file with 10 randomly created log file
 Example:
 ```bash
 node run benchmark -- --rows=1000000
-```
-
-Results:
-```bash
-$ npm run benchmark -- --rows=1000000
 
 Generating 1000000 random log entries...
 Writing log entries to ./benchmark.log...
